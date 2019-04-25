@@ -6,11 +6,11 @@
 
 ### What is a validator?
 
-The Cosmos Hub is based on Tendermint, which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.
+The FreeRange Hub is based on Tendermint, which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.
 
 ### What is 'staking'?
 
-The Cosmos Hub is a public Proof-Of-Stake (PoS) blockchain, meaning that validator's weight is determined by the amount of staking tokens (Atoms) bonded as collateral. These Atoms can be staked directly by the validator or delegated to them by Atom holders.
+The FreeRange Hub is a public Proof-Of-Stake (PoS) blockchain, meaning that validator's weight is determined by the amount of staking tokens (Atoms) bonded as collateral. These Atoms can be staked directly by the validator or delegated to them by Atom holders.
 Any user in the system can declare its intention to become a validator by sending a "declare-candidacy" transaction. From there, they become validator candidates.
 The weight (i.e. total stake) of a candidate determines wether or not it is a validator, and also how frequently this node will have to propose a block and how much revenue it will obtain. Initially, only the top 100 validator candidates with the most weight will be validators. If validators double sign, are frequently offline or do not participate in governance, their staked Atoms (including Atoms of users that delegated to them) can be destroyed, or 'slashed'.
 
